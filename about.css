@@ -113,6 +113,7 @@ footer a:hover{
 }
 
 @media screen and (max-width:500px){
+
   nav ul li{
    display: flex;
    flex-direction: column;
@@ -121,5 +122,12 @@ footer a:hover{
   nav ul li:hover{
     display: inline-block;
     border-bottom: 4px solid #d08047;
+  }
+  
+  table{
+    width: 100%;
+  }
+  th{
+    width: 40%;
   }
 }
